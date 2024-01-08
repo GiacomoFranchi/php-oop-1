@@ -5,7 +5,7 @@ require_once __DIR__ .'/Models/Genere.php';
 $generi =[
     $genereba = new Genere('commedia', 'fantastico', 'avventura', 'sentimentale'),
     $genereg = new Genere('Comedy','Action','Fantasy'),
-    $generebt = new Genere('Fantasy','Action')
+    $generebt = new Genere('Fantasy','Action','Triller')
 ];
 
 $batman = new Movie('Batman', $generebt, 176, 'https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1600041306046-ZKYYQ868MULDEN30MD3C/New+Poster+Art+For+THE+BATMAN5');
