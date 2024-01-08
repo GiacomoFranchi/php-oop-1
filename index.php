@@ -7,5 +7,5 @@ echo $batman->durata_film(120);
 
 $groot = new Movie('I am Groot', ['Comedy','Action','Fantasy'], 30);
 var_dump($groot);
-echo $batman ->durata_film(30);
+echo $groot ->durata_film(30);
 ?>

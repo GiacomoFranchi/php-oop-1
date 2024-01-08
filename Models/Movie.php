@@ -4,8 +4,8 @@ public $titolo;
 public $genere;
 public $durata;
 
-public function durata_film($durata){
-    if(($durata <= 75)){
+public function durata_film(){
+    if(($this->durata <= 75)){
         $tipo_film = "Cortometraggio";
     } else{
         $tipo_film = "Lungometraggio";
